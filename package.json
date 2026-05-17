@@ -1,6 +1,6 @@
 {
   "name": "ota-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Multi-provider OTA update manager for Astro and static web projects.",
   "type": "module",
   "main": "index.js",
@@ -34,7 +34,8 @@
   },
   "homepage": "https://github.com/firstryan/ota-manager#readme",
   "dependencies": {
-    "archiver": "^8.0.0"
+    "archiver": "^8.0.0",
+    "ota-manager": "^1.0.1"
   },
   "engines": {
     "node": ">=18.0.0"

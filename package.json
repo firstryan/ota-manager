@@ -1,5 +1,5 @@
 {
-  "name": "ota-manager",
+  "name": "@firstryan/ota-manager",
   "version": "1.0.0",
   "description": "Multi-provider OTA update manager for Astro and static web projects.",
   "type": "module",

@@ -1,6 +1,6 @@
 {
   "name": "ota-manager",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Multi-provider OTA update manager for Astro and static web projects.",
   "type": "module",
   "main": "index.js",

@@ -1,10 +1,11 @@
 {
   "name": "ota-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multi-provider OTA update manager for Astro and static web projects.",
   "type": "module",
   "main": "index.js",
   "bin": {
+    "ota-manager": "bin/cli.js",
     "ota-updates": "bin/cli.js"
   },
   "scripts": {

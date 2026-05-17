@@ -1,0 +1,41 @@
+{
+  "name": "ota-manager",
+  "version": "1.0.0",
+  "description": "Multi-provider OTA update manager for Astro and static web projects.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "ota-updates": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "astro",
+    "ota",
+    "deployment",
+    "github",
+    "gitlab",
+    "automation"
+  ],
+  "author": {
+    "name": "First Ryan",
+    "email": "firstryan@gmail.com",
+    "url": "https://github.com/firstryan"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstryan/ota-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/firstryan/ota-manager/issues"
+  },
+  "homepage": "https://github.com/firstryan/ota-manager#readme",
+  "dependencies": {
+    "archiver": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

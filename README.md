@@ -17,7 +17,7 @@ Modern mobile hybrid apps (built with Astro, Vite, or Capacitor) require a robus
 *   🔄 **Flexible CLI Shorthands**: Supports both `npx ota-manager` and `npx ota-updates`. Features lightning-fast shorthands like `npx ota-manager -d training` and `-d live`.
 *   🔀 **Multi-Provider & Multi-Channel Routing**: Built-in support for GitHub and GitLab strategies. Configure independent target repositories and branches for `training` vs `live` environments.
 *   🛡️ **Size Guardian Protocol**: Pre-flight audit of your `dist/` directory and generated ZIP archive to prevent Zip Bombs (>50MB threshold protection).
-*   💥 **Tsar Bomba Path Cleanse (`flatten-dist.cjs`)**: Post-build normalization of absolute asset paths (`/assets/`) to relative paths (`./assets/`) to guarantee flawless Capacitor WebView navigation.
+*   ⚙️ **Absolute Path Normalization (`flatten-dist.cjs`)**: Post-build normalization of absolute asset paths (`/assets/`) to relative paths (`./assets/`) to guarantee flawless Capacitor WebView navigation.
 *   🙈 **API Route Protection**: Automatically isolates and hides `/src/pages/api` during static export/build to prevent build failures, then restores them seamlessly.
 *   🔐 **Security Auditor (`ota-security.js`)**: Automated inspection of Personal Access Tokens (PAT) to prevent token leaks or overly broad repository access.
 *   📡 **E2E Connection Simulation**: Built-in `test` command to simulate push and read capabilities against your Git provider before executing actual deployments.
@@ -124,7 +124,7 @@ PUBLIC_OTA_UPDATE_URL=https://raw.githubusercontent.com/your-org/your-ota-repo/m
 └─────────────────────────────┬────────────────────────────┘
                               ▼
 ┌──────────────────────────────────────────────────────────┐
-│ 3. Build & Tsar Bomba Cleanse: Normalizes /assets/ paths │
+│ 3. Build & Path Normalization: Normalizes /assets/ paths │
 └─────────────────────────────┬────────────────────────────┘
                               ▼
 ┌──────────────────────────────────────────────────────────┐
